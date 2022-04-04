@@ -1,0 +1,16 @@
+.shop-container{
+    display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+}
+
+.product-img img{
+    height: 300px;
+    width: 400px;
+}
+h1{
+    color: tomato;
+}
+h2{
+    color: blueviolet;
+}
