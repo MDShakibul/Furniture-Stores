@@ -1,8 +1,18 @@
 import React from "react";
 import "./Home.css";
 import Product from "../../images/bed.jpg";
+import useProducts from "../../hooks/useProducts";
+import Review from "../Review/Review";
+import { useNavigate } from 'react-router';
 
 const Home = () => {
+    const [reviews, setReviews] = useProducts();
+
+    let navigate = useNavigate();
+  function handleAllReviews() {
+    navigate('/reviews')
+  }
+
   return (
     <div className="mt-5 ">
       <div className="row m-0 ps-3 pe-3 d-flex align-items-center">
@@ -18,6 +28,22 @@ const Home = () => {
           <img src={Product} className="img-fluid" alt="" />
         </div>
       </div>
+      <h2 className="text-center mt-5">Customer Reviews</h2>
+
+      <div className="row mt-5 m-0 p-0">
+
+      {reviews.slice(0, 3).map((review) => (
+        <Review
+          key={review.id}
+          review={review}
+        ></Review>
+      ))}
+      
+      </div>
+<div className="d-flex justify-content-center">
+<button className="btn btn-success mt-2 mb-3" onClick={handleAllReviews}>Sell all Reviews</button>
+</div>
+
     </div>
   );
 };
