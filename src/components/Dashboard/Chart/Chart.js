@@ -21,7 +21,7 @@ const Chart = () => {
   }, []);
 
   return (
-    <div className="row">
+    <div className="row mt-3">
       <div className="col-lg-6 ">
         <h1 className="text-center">Line Chart</h1>
         <div className="d-flex justify-content-center">

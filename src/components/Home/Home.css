@@ -5,8 +5,7 @@
 }
 
 .product-img img{
-    height: 300px;
-    width: 400px;
+    border-radius: 1rem;
 }
 h1{
     color: tomato;

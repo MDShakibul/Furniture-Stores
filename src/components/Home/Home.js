@@ -24,11 +24,11 @@ const Home = () => {
             show room and our website. You can order our product by online
           </p>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 product-img">
           <img src={Product} className="img-fluid" alt="" />
         </div>
       </div>
-      <h2 className="text-center mt-5">Customer Reviews</h2>
+      <h2 className="text-center mt-5">Customer Reviews (3)</h2>
 
       <div className="row mt-5 m-0 p-0">
 
@@ -41,7 +41,7 @@ const Home = () => {
       
       </div>
 <div className="d-flex justify-content-center">
-<button className="btn btn-success mt-2 mb-3" onClick={handleAllReviews}>Sell all Reviews</button>
+<button className="btn btn-success mt-2 mb-3" onClick={handleAllReviews}>See all Reviews</button>
 </div>
 
     </div>
