@@ -46,24 +46,7 @@ const Chart = () => {
       </BarChart>
         </div>
       </div>
-      <div>
-      <h1 className='text-center'>Pie Chart</h1>
-
-        <div className="d-flex justify-content-center">
-        <PieChart width={400} height={400}>
-          <Pie
-            data={charts}
-            dataKey={"sell"}
-            cx="50%"
-            cy="50%"
-            outerRadius={100}
-            fill="#8884d8"
-          />
-
-          <Tooltip></Tooltip>
-        </PieChart>
-        </div>
-      </div>
+      
     </div>
   );
 };

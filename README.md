@@ -1,6 +1,6 @@
 # Furniture Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [https://genuine-florentine-7c9c3c.netlify.app/](https://genuine-florentine-7c9c3c.netlify.app/).
 
 ## Our Characteristic
 * Best service.

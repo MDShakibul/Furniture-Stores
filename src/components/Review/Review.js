@@ -7,8 +7,8 @@ const Review = ({review}) => {
         <div className='col-lg-4 d-flex justify-content-center p-0'>
         <div className='review'>
         <h5>Name: {name}</h5>
-        <p>Comment: {comment}</p>
-        <p>Rating: <span className='text-danger'>{rating}</span></p>
+        <p><span className='fw-bold'>Comment: </span> {comment}</p>
+        <p><span className='fw-bold'>Rating: </span> <span className='text-danger'>{rating}</span></p>
         
         </div>
 
