@@ -22,7 +22,7 @@ const Chart = () => {
 
   return (
     <div className="row mt-3">
-      <div className="col-lg-6 ">
+      <div className="col-lg-6 col-sm-12">
         <h1 className="text-center">Line Chart</h1>
         <div className="d-flex justify-content-center">
         <LineChart width={400} height={400} data={charts}>
@@ -34,7 +34,7 @@ const Chart = () => {
       </LineChart>
         </div>
       </div>
-      <div className="col-lg-6">
+      <div className="col-lg-6 col-sm-12">
         <h1 className="text-center">Bar Chart</h1>
 
         <div className="d-flex justify-content-center">

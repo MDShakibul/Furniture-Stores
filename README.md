@@ -1,12 +1,13 @@
 # Furniture Shop
 
-This project was bootstrapped with [https://genuine-florentine-7c9c3c.netlify.app/](https://genuine-florentine-7c9c3c.netlify.app/).
+This project was bootstrapped with [https://genuine-florentine-7c9c3c.netlify.app/](https://genuine-florentine-7c9c3c.netlify.app/home).
 
 ## Our Characteristic
-* Best service.
-* Best qualityful product.
-* Reasonable price.
-* Have online services.
+
+- Best service.
+- Best qualityful product.
+- Reasonable price.
+- Have online services.
 
 ## Available Scripts
 
@@ -24,8 +25,6 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-
 
 ### `npm run build`
 
