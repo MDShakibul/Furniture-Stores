@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Furniture Shop
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Our Characteristic
+* Best service.
+* Best qualityful product.
+* Reasonable price.
+* Have online services.
 
 ## Available Scripts
 
@@ -18,6 +24,8 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
 
 ### `npm run build`
 
